@@ -3,6 +3,14 @@
 
 <body>
 
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{% if "html_safe" in message.tags %}{{ message|safe }}{% else %}{{ message }}{% endif %}</li>
+    {% endfor %}
+</ul>
+{% endif %}	
+
 <h1><u> {{ title }}  </u></h1>
 
 {{ instance.title }}<br/>
