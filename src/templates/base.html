@@ -1,10 +1,9 @@
+{% load staticfiles %}
 <!--DOCTYPE html -->
 <html>
 <head>
-<title>{% block head_title %}
-	   		Django Blog 1.9
-	   	{% endblock head_title %}
-</title>
+<title>{% block head_title %}Django Blog 1.9{% endblock head_title %}</title>
+<link rel='stylesheet' href='{% static "css/base.css" %}' />
 </head>
 
 <body>
@@ -14,5 +13,6 @@
 
 		{% endblock content %}
 	</div>
+<img src='{% static "img/beach.jpg" %}' />	
 </body>
 </html>
