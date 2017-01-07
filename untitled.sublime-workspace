@@ -1,0 +1,751 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"quer",
+				"queryset_list"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"Post",
+				"PostManager"
+			],
+			[
+				"prea",
+				"pre_save_post_receiver"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"Ht",
+				"HttpResponseRedirect"
+			],
+			[
+				"object",
+				"get_object_or_404"
+			],
+			[
+				"post",
+				"post_list"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"main",
+				"mainimage"
+			],
+			[
+				"mainIma",
+				"mainImageName"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fff",
+				"fff"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"Loca",
+				"localStrategy"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pro",
+				"profileImageName"
+			],
+			[
+				"prof",
+				"profileimage"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"profileImage",
+				"profileImageName"
+			],
+			[
+				"field",
+				"fieldname"
+			],
+			[
+				"ima",
+				"profileImageName"
+			],
+			[
+				"pr",
+				"profileimage"
+			],
+			[
+				"express",
+				"expressValidator"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"file",
+				"fileStream"
+			],
+			[
+				"write",
+				"writeHead"
+			],
+			[
+				"mime",
+				"mimeType"
+			],
+			[
+				"sb",
+				"submit"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"Join",
+				"JoinForm"
+			],
+			[
+				"home",
+				"home2"
+			],
+			[
+				"list",
+				"list1"
+			],
+			[
+				"ans",
+				"ans_list1"
+			],
+			[
+				"li",
+				"list2"
+			],
+			[
+				"Cla",
+				"Class2"
+			],
+			[
+				"print",
+				"printHam"
+			],
+			[
+				"C",
+				"Class2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/posts/templatetags/urlify.py",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/views.py",
+			"settings":
+			{
+				"buffer_size": 3250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/models.py",
+			"settings":
+			{
+				"buffer_size": 2246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/blog/settings.py",
+			"settings":
+			{
+				"buffer_size": 3451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/apps.py",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/post_detail.html",
+			"settings":
+			{
+				"buffer_size": 1741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/post_list.html",
+			"settings":
+			{
+				"buffer_size": 1905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/forms.py",
+			"settings":
+			{
+				"buffer_size": 193,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/node.sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/templatetags/urlify.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/templatetags/__inti__.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/__init__.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/blog/__init__.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/__inti__.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/templates/base.html",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/views.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/migrations/0001_initial.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/models.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/templates/post_form.html",
+		"/home/tenzin/Desktop/django/blogjango19/src/blog/urls.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/urls.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/blog/settings.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/templates/post_detail.html",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/forms.py",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/migrations/__init__.py",
+		"/home/tenzin/Desktop/django/blogjango19/media_cdn/univers.jpg",
+		"/home/tenzin/Desktop/django/blogjango19/src/templates/post_list.html",
+		"/home/tenzin/Desktop/django/blogjango19/src/static/css/base.css",
+		"/home/tenzin/Desktop/django/blogjango19/static_cdn/admin/css/base.css",
+		"/home/tenzin/Desktop/django/blogjango19/src/templates/messages_display.html",
+		"/home/tenzin/Desktop/django/blogjango19/src/templates/index.html",
+		"/home/tenzin/Desktop/django/blogjango19/src/posts/admin.py",
+		"/home/tenzin/Desktop/NodeProject/loginapp/package.json",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/views/layout.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/app.js",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/public/stylesheets/style.css",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/views/addcategory.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/routes/categories.js",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/views/addpost.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/views/show.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/views/index.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/routes/posts.js",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/views/layout.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeblog/routes/index.js",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/app.js",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/routes/index.js",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/public/stylesheets/style.css",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/views/register.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/views/login.jade",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/models/user.js",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/routes/users.js",
+		"/home/tenzin/Desktop/NodeProject/nodeauth/views/index.jade",
+		"/home/tenzin/Desktop/NodeProject/express_website/public/stylesheets/style.css",
+		"/home/tenzin/Desktop/devEnv/style.css",
+		"/home/tenzin/Desktop/main.css",
+		"/home/tenzin/Desktop/index.html",
+		"/home/tenzin/Desktop/devEnv/layout.html",
+		"/home/tenzin/Desktop/devEnv/views/index.html",
+		"/home/tenzin/Desktop/devEnv/app.js",
+		"/home/tenzin/Desktop/devEnv/views/register.html",
+		"/home/tenzin/Desktop/devEnv/views/layout.html",
+		"/home/tenzin/Desktop/devEnv/views/login.html",
+		"/home/tenzin/Desktop/app/app.js",
+		"/home/tenzin/Desktop/app/routes/users.js",
+		"/home/tenzin/Desktop/app/views/login.html",
+		"/home/tenzin/Desktop/app/views/layout.html",
+		"/home/tenzin/Desktop/app/views/register.html",
+		"/home/tenzin/Desktop/app/views/index.html",
+		"/home/tenzin/Desktop/NodeProject/express_website/public/stylesheets/bootstrap.css",
+		"/home/tenzin/Desktop/NodeProject/express_website/public/images/bg.jpg",
+		"/home/tenzin/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/tenzin/Desktop/NodeProject/server.js",
+		"/home/tenzin/Desktop/NodeProject/webserver/index.html",
+		"/home/tenzin/Desktop/NodeProject/webserver/server.js",
+		"/home/tenzin/Desktop/Imad/pratical/pac3/webapp/imad-2016-app/ui/style.css",
+		"/home/tenzin/Desktop/Imad/pratical/pac3/webapp/imad-2016-app/ui/index.html",
+		"/home/tenzin/tutorials/Html_Css/bootstrap/main.css",
+		"/home/tenzin/Desktop/Imad/pratical/pac3/webapp/imad-2016-app/ui/article.js",
+		"/home/tenzin/c_c++ program/C++ program/op_overloading.cpp",
+		"/home/tenzin/c_c++ program/C++ program/Class_object/opt_overload_++.cpp",
+		"/home/tenzin/Downloads/main (1).cpp",
+		"/home/tenzin/Downloads/main.cpp",
+		"/tmp/mozilla_tenzin0/exe 11.cpp",
+		"/home/tenzin/Desktop/Imad/pratical/pac3/webapp/imad-2016-app/ui/main.js",
+		"/home/tenzin/Desktop/Project/htm_c++.cpp",
+		"/home/tenzin/c_c++ program/C++ program/ADT/linked list/c++/queque.cpp",
+		"/home/tenzin/c_c++ program/C++ program/ADT/linked list/c++/pw.cpp",
+		"/home/tenzin/c_c++ program/C++ program/Class_object/Friend_Class.cpp",
+		"/home/tenzin/c_c++ program/C++ program/Class_object/inheritance/FrinedClass.cpp",
+		"/home/tenzin/Desktop/Imad/pratical/pac3/webapp/imad-2016-app/server.js",
+		"/home/tenzin/tutorials/Html_Css/bootstrap/index.html",
+		"/home/tenzin/Desktop/myweb/src/Website/firstClassFunc.js",
+		"/home/tenzin/.config/sublime-text-2/Packages/User/JSC.sublime-build",
+		"/home/tenzin/Desktop/myweb/src/Website/urls.py",
+		"/home/tenzin/Desktop/myweb/src/music/views.py",
+		"/home/tenzin/Desktop/myweb/src/music/urls.py",
+		"/home/tenzin/Desktop/student/Progs/Ch06/Objpart.cpp",
+		"/home/tenzin/Desktop/HTML5_CSS/index.html",
+		"/home/tenzin/Desktop/django/blog/templates/blog/post_list.html",
+		"/home/tenzin/Desktop/django/templates/base_site.html",
+		"/home/tenzin/Desktop/django/blog/templates/admin/base_site.html",
+		"/home/tenzin/Desktop/django/blog/templates/admin/base.html",
+		"/home/tenzin/Desktop/django/blog/templates/blog/forms.py",
+		"/home/tenzin/Desktop/django/blog/static/css/blog.css",
+		"/home/tenzin/Desktop/django/blog/forms.py",
+		"/home/tenzin/Desktop/django/blog/templates/blog/post_detail.html",
+		"/home/tenzin/Desktop/trydjango/src/templates/navbar.html",
+		"/home/tenzin/Desktop/trydjango/src/lwc/views.py",
+		"/home/tenzin/Desktop/trydjango/src/templates/home.html",
+		"/home/tenzin/Desktop/trydjango/src/joins/admin.py",
+		"/home/tenzin/Desktop/trydjango/src/manage.py",
+		"/home/tenzin/Desktop/trydjango/src/lwc/settings.py",
+		"/home/tenzin/Desktop/trydjango/lwc/lwc/views.py",
+		"/home/tenzin/Desktop/trydjango/lwc/lwc/urls.py",
+		"/home/tenzin/Desktop/trydjango/src/templates/base.html",
+		"/home/tenzin/Desktop/WebApp/src/my_project/urls.py",
+		"/home/tenzin/Desktop/WebApp/src/newsletter/views.py",
+		"/home/tenzin/Desktop/WebApp/src/newsletter/admin.py",
+		"/home/tenzin/version-control/Python/Python_Beginner-Advance_codes/code/pagerank/num.py",
+		"/home/tenzin/version-control/Python/Python_Beginner-Advance_codes/code/pagerank/force.css",
+		"/home/tenzin/Exercise_python/class/kata.py",
+		"/home/tenzin/Exercise_python/class/higher_oder_function.py",
+		"/home/tenzin/Exercise_python/class/transtlate.py",
+		"/home/tenzin/Exercise_python/class/ex26.py",
+		"/home/tenzin/Exercise_python/class/classes.py",
+		"/home/tenzin/Exercise_python/class/base.py",
+		"/home/tenzin/Exercise_python/class/class_001.py",
+		"/home/tenzin/Desktop/WebApp/bin/activate",
+		"/home/tenzin/Exercise_python/class/character.py",
+		"/home/tenzin/Exercise_python/class/map_hof.py",
+		"/home/tenzin/Exercise_python/kivy_apps/tutor1/simplekivy1.py",
+		"/home/tenzin/Exercise_python/dic_char_freq.py",
+		"/home/tenzin/Exercise_python/dic_cryptography.py",
+		"/home/tenzin/Exercise_python/Dic_translate.py",
+		"/home/tenzin/Exercise_python/generate.py",
+		"/home/tenzin/Exercise_python/histogram.py",
+		"/home/tenzin/Exercise_python/length.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"var express = require('express');\nvar path = require('path');\nvar favicon = require('serve-favicon');\nvar logger = require('morgan');\nvar expressValidator = require('express-validator');\nvar cookieParser = require('cookie-parser');\nvar session = require('express-session');\nvar passport = require('passport');\nvar localStrategy = require('passport-local').Strategy;\nvar bodyParser = require('body-parser');\nvar multer  = require('multer');\nvar flash = require('connect-flash');\nvar mongo = require('mongodb');\nvar mongoose = require('mongoose');\nvar db = mongoose.connection;\nvar upload = multer({dest: './uploads'});\n\nvar index = require('./routes/index');\nvar users = require('./routes/users');\n\nvar app = express();\n\n// view engine setup\napp.set('views', path.join(__dirname, 'views'));\napp.set('view engine', 'jade');\n\n// uncomment after placing your favicon in /public\n//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));\napp.use(logger('dev'));\napp.use(bodyParser.json());\napp.use(bodyParser.urlencoded({ extended: false }));\n\n//Handle Express Sessions\napp.use(session({\n	secret: 'secret',\n	saveUninitialized: true,\n	resave: true\n}));\n\n//Passport\napp.use(passport.initialize());\napp.use(passport.session());\n\n//Vlidator\napp.use(expressValidator({\n  errorFormatter: function(param, msg, value) {\n      var namespace = param.split('.')\n      , root    = namespace.shift()\n      , formParam = root;\n\n    while(namespace.length) {\n      formParam += '[' + namespace.shift() + ']';\n    }\n    return {\n      param : formParam,\n      msg   : msg,\n      value : value\n    };\n  }\n}));\n\napp.use(cookieParser());\napp.use(express.static(path.join(__dirname, 'public')));\n\napp.use(flash());\napp.use(function (req, res, next) {\nres.locals.messages = require('express-messages')(req, res);\nnext();\n});\n\napp.get('*', function(req, res, next) {\n  res.locals.user = req.user || null;\n  next();\n});\n\napp.use('/', index);\napp.use('/users', users);\n\n// catch 404 and forward to error handler\napp.use(function(req, res, next) {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\n// error handler\napp.use(function(err, req, res, next) {\n  // set locals, only providing error in development\n  res.locals.message = err.message;\n  res.locals.error = req.app.get('env') === 'development' ? err : {};\n\n  // render the error page\n  res.status(err.status || 500);\n  res.render('error');\n});\n\nmodule.exports = app;\n",
+			"//\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/posts/templatetags/urlify.py",
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/posts/views.py",
+					"settings":
+					{
+						"buffer_size": 3250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								868,
+								868
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/posts/models.py",
+					"settings":
+					{
+						"buffer_size": 2246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								963,
+								963
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/blog/settings.py",
+					"settings":
+					{
+						"buffer_size": 3451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/posts/apps.py",
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/post_detail.html",
+					"settings":
+					{
+						"buffer_size": 1741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/post_list.html",
+					"settings":
+					{
+						"buffer_size": 1905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1784,
+								1784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 1513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/posts/forms.py",
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true
+}
