@@ -5,8 +5,11 @@ from django.core.urlresolvers import reverse
 from django.db import models
 from django.db.models.signals import pre_save
 from django.utils import timezone
-
+from django.utils.safestring import mark_safe
 from django.utils.text import slugify
+
+from markdown_deux import markdown
+import urllib
 
 # Create your models here.
 # MVC MODEL VIEW CONTROLLER
@@ -54,6 +57,13 @@ class Post(models.Model):
 	class Meta:
 		ordering = ["-timestamp", "-updated"]	
 
+	def get_markdown(self):
+		content = self.content
+		markdown_text = markdown(content)
+		if "http" in markdown_text:
+			markdown_text = markdown_duex_url_decoder(markdown_text)
+		return mark_safe(markdown_text)
+
 
 def create_slug(instance, new_slug=None):
     slug = slugify(instance.title)
@@ -71,6 +81,12 @@ def pre_save_post_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
         instance.slug = create_slug(instance)
 
+def markdown_duex_url_decoder(markdown_text):
+	markdown_text_list = markdown_text.split("\"")
+	encoded_url = markdown_text_list[1]
+	decoded_url = urllib.unquote(encoded_url).decode('utf8')
+	markdown_text_list[1] = decoded_url
+	return "\"".join(markdown_text_list)
 
 
 pre_save.connect(pre_save_post_receiver, sender=Post)
