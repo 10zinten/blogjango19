@@ -47,18 +47,17 @@
 		<div class='col-sm-12 '>
 
 		<div class='post-detail-item'> {{ instance.get_markdown }} </div>
-		
+
 		<hr/>
 		<br/>
 		<div>
 			<p class="lead">Comments :</p>
 			{% for comment in comments %}
-				<div class=''>
-					{{ comment.content }}
-					<br/>
-					<small class='col-sm-6 col-sm-offset-6'>via {{ comment.user }} | {{ comment.timestamp|timesince }} ago</small>
-					<hr/>
-				</div>
+				<blockquote class="blockquote">
+  				<p class="mb-0">{{ comment.content }}</p>
+  				<footer>via {{ comment.user }} | {{ comment.timestamp|timesince }} ago</footer>
+				</blockquote>
+				<hr/>
 			{% endfor %}	
 		</div>		
 
