@@ -50,10 +50,20 @@
 		
 		<hr/>
 		<br/>
-		{{ instance.comment_set.all }}
-		<div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+		<div>
+			<p class="lead">Comments :</p>
+			{% for comment in comments %}
+				<div class=''>
+					{{ comment.content }}
+					<br/>
+					<small class='col-sm-6 col-sm-offset-6'>via {{ comment.user }} | {{ comment.timestamp|timesince }} ago</small>
+					<hr/>
+				</div>
+			{% endfor %}	
+		</div>		
 
-		<hr/>
+		<!-- {{ instance.comment_set.all }} -->
+		<!-- <div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div> -->
 		</div>
 		</div>
 	</div>
