@@ -9,6 +9,12 @@
 
 {% endblock head_title %}
 
+{% block post_detial_link %}
+	<li class="nav-item">
+		<a class="nav-link" href="{{ isntance.get_absolute_url }}">{{ instance.title }}</a>
+	</li>
+{% endblock %}
+
 {% block content %}
 	<div class='col-sm-8 col-sm-offset-2'>
 		{% if instance.image %}

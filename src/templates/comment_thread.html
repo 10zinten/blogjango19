@@ -5,9 +5,15 @@
 
 {% block head_title %}
 	
-	{{ instance.title }} | {{ block.super }}
+	{{ comment.content_object.title }} | {{ block.super }}
 
 {% endblock head_title %}
+
+
+
+{% block post_detial_link %}
+	<li><a href="{{ comment.content_object.get_absolute_url }}">{{ comment.content_object.title }}</a></li>
+{% endblock %}
 
 
 {% block content %}
