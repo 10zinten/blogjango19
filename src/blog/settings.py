@@ -38,13 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third party apps
-    'comments',
     'crispy_forms',
     'markdown_deux',
     'pagedown',
 
     # local apps
     'posts',
+    'comments',
+    #'accounts',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
