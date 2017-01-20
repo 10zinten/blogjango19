@@ -38,9 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third party apps
+    'comments',
     'crispy_forms',
-    'pagedown',
     'markdown_deux',
+    'pagedown',
 
     # local apps
     'posts',

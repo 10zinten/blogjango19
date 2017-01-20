@@ -13,6 +13,8 @@ from comments.forms import CommentForm
 from .forms import PostForm
 from .models import Post
 
+from .utils import get_read_time
+
 
 
 def post_list(request): #list items
@@ -74,6 +76,9 @@ def post_detail(request, slug=None): #retrieve
 		if not request.user.is_staff or not request.user.is_superuser:
 			raise Http404
 	share_string = quote_plus(instance.content)
+
+	print(get_read_time(instance.content))
+	print(get_read_time(instance.get_markdown()))
 
 	initial_data = {
 		"content_type": instance.get_content_type,
