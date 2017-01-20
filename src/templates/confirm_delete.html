@@ -12,7 +12,8 @@
 
 {% block content %}
 	<div class='col-sm-8 col-sm-offset-2'>
-	  	<h1>Confrim Delete :</h1>>
+	  	<h1>Confrim Delete :</h1>
+	  	<hr/>
 		<form method='POST' action=".">{% csrf_token %}
 			<p>Are sure want to Delete : "{{ object.content }}" ?</p>
 			<input type='submit' value='Confrim' class='btn btn-warning'>

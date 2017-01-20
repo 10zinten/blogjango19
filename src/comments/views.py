@@ -1,6 +1,6 @@
 from django.contrib import messages
 from django.contrib.contenttypes.models import ContentType
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, Http404, HttpResponse
 from django.shortcuts import render, get_object_or_404
 
 from .forms import CommentForm
@@ -8,7 +8,20 @@ from .models import Comment
 # Create your views here.
 
 def comment_delete(request, id):
-	obj = get_object_or_404(Comment, id=id)
+	# obj = get_object_or_404(Comment, id=id)
+	try:
+		obj = Comment.objects.get(id=id)
+	except:
+		raise Http404
+
+	if obj.user != request.user:
+		# messages.success(request, "You do not have permission to view this !!! ")
+		# raise Http404
+		response = HttpResponse("You do not have permission to view this !!! ")
+		response.status_code = 403
+		return response
+		# return render(request, "confirm_delete.html", context, status_code=403)
+
 	if request.method == "POST":
 		parent_obj_url = obj.content_object.get_absolute_url()
 		print parent_obj_url
@@ -21,12 +34,17 @@ def comment_delete(request, id):
 	return render(request, "confirm_delete.html", context)
 
 def comment_thread(request, id):
-	obj = get_object_or_404(Comment, id=id)
-	content_object = obj.content_object
-	content_id = obj.content_object.id
+	# obj = get_object_or_404(Comment, id=id)
+	try:
+		obj = Comment.objects.get(id=id)
+	except:
+		raise Http404
 
-	print content_object
-	print content_id
+	# if obj.is_parent:
+	# 	obj = obj.parent 
+
+	# content_object = obj.content_object
+	# content_id = obj.content_object.id
 
 	initial_data = {
 		"content_type": obj.content_type,
