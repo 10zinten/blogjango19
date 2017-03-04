@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block post_create_link %}
+	<li class='pull-right'><a href='{% url "posts:create"%}'>Post</a></li>
+{% endblock %}
+
 {% block content %}
 
 	<div class='col-sm-8 col-sm-offset-2'>

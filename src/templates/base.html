@@ -40,7 +40,14 @@
 			<li class='pull-right'><a href='{% url "register"%}'>Register</a></li>
 			<li class='pull-right'><a href='{% url "login"%}'>Login</a></li>
 			{% else %}
+
 			<li class='pull-right'><a href='{% url "logout"%}'>Logout</a></li>
+				{% block post_create_link %}
+				{% endblock %}
+				{% block post_update_link %}
+				{% endblock %}
+				{% block post_delete_link %}
+				{% endblock %}
 			{% endif %}
 
 		</ol>

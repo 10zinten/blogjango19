@@ -10,9 +10,14 @@
 {% endblock head_title %}
 
 {% block post_detial_link %}
-	<li class="nav-item">
-		<a class="nav-link" href="{{ isntance.get_absolute_url }}">{{ instance.title }}</a>
-	</li>
+	<li><a class="nav-link" href="{{ isntance.get_absolute_url }}">{{ instance.title }}</a></li>
+{% endblock %}
+
+{% block post_update_link %}
+	<li class='pull-right'><a href='{{ instance.get_absolute_url}}edit'>Edit</a></li>
+{% endblock %}
+{% block post_delete_link %}
+	<li class='pull-right'><a href='{{ instance.get_absolute_url}}delete'>Delete</a></li>
 {% endblock %}
 
 {% block content %}

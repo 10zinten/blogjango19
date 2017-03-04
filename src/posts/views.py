@@ -1,5 +1,6 @@
 from urllib import quote_plus
 
+from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.contenttypes.models import ContentType
 from django.http import HttpResponse, HttpResponseRedirect, Http404
@@ -53,7 +54,9 @@ def post_list(request): #list items
 
 
 def post_create(request):
-	if not request.user.is_staff or not request.user.is_superuser:
+	username = str(request.user)
+	user = User.objects.filter(username=username)
+	if user.count() != 1:
 		raise Http404
 	form = PostForm(request.POST or None, request.FILES or None)
 	if form.is_valid():
@@ -120,9 +123,13 @@ def post_detail(request, slug=None): #retrieve
 
 
 def post_update(request, slug=None):
-	if not request.user.is_staff or not request.user.is_superuser:
-		raise Http404
 	instance = get_object_or_404(Post, slug=slug)
+	
+	if request.user.is_staff or request.user.is_superuser:
+		pass
+	elif request.user != instance.user:
+		raise Http404	
+	
 	form = PostForm(request.POST or None, request.FILES or None, instance=instance)
 	if form.is_valid():
 		instance = form.save(commit=False)
